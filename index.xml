@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matteo Busi - University of Pisa</title>
+    <link>https://matteobusi.github.io/</link>
+    <description>Recent content on Matteo Busi - University of Pisa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://matteobusi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>https://matteobusi.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matteobusi.github.io/about/</guid>
+      <description>Short Bio I was born in Brescia, Italy in 1993.
+I got my B.Sc., M.Sc. and Ph.D. degrees in Computer Science at University of Pisa.
+My research interests include cybersecurity, programming languages, and formal methods.
+Currently, my focus is on secure compilation, that is ``how can we guarantee that compilers preserve security properties?&#39;&#39;.
+Education and experiences  Nov. 2017 - Dec. 2020, Ph.D. in Computer Science @ University of Pisa &amp;mdash; thesis Feb.</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://matteobusi.github.io/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://matteobusi.github.io/teaching/</guid>
+      <description>Tutor for the Turing Machine Programming National &amp;amp; International Contest (14 &amp;ndash; 17 Sep 2021)
+National (Italian) and International competition where high-school students were asked to program a Turing machine to
+solve algorithmic problems.
+In collaboration with others, my duties were to translate training material from Italian, prepare the solutions to the
+proposed exercises, and adapt the existing evaluating software to the new requirements (fixing its security a bit and provide a</description>
+    </item>
+    
+  </channel>
+</rss>
