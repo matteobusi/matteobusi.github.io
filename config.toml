@@ -1,0 +1,75 @@
+
+## Basic Configuration
+
+baseurl = "https://matteobusi.github.io/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Matteo Busi"
+title = "Matteo Busi - Ca' Foscari University of Venice"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Matteo Busi"
+intro = "Researcher @ Ca' Foscari University of Venice"
+description = "Dept. of Environmental Sciences, Informatics and Statistics"
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Matteo Busi | Ca' Foscari University of Venice"
+keywords = "venezia,cafoscari,unive,matteo,busi,unipi,pisa,university,phd,student,computer science,computer,science,informatics,theory,static analysis,compilers,programming languages,programming,languages,secure compilation"
+
+## Social Accounts
+[params.social]
+github = "matteobusi"
+twitter = "mttbsu"
+email = "matteo.busi@unive.it"
+googlescholar = "OaOyNBIAAAAJ"
+
+## Extras
+[params.extra]
+copyright = "© 2023. Matteo Busi."
+poweredby = true
+hightlightjs = true
+
+[blackfriday]
+hrefTargetBlank = true
+extensions = ["hardLineBreak"]
+
+[markup.goldmark.renderer]
+hardWraps = true
+
+## Main Menu
+[[menu.main]]
+    name = "about me"
+    weight = 100
+    identifier = "about"
+    url = "/about/"
+[[menu.main]]
+    name = "teaching"
+    weight = 200
+    identifier = "teaching"
+    url = "/teaching/"
+[[menu.main]]
+    name = "my cv [pdf]"
+    weight = 300
+    identifier = "cv"
+    url = "/cv-matteobusi-eng.pdf"
+[[menu.main]]
+    name = "my papers [dblp]"
+    identifier = "papers"
+    weight = 400
+    url = "https://dblp.uni-trier.de/pid/191/7498-1.html"
